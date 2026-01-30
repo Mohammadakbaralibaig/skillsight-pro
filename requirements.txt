@@ -1,0 +1,13 @@
+streamlit
+streamlit-lottie
+sentence-transformers
+torch
+plotly
+pandas
+numpy
+scikit-learn
+requests
+PyPDF2
+python-dotenv
+docx2txt
+spacy

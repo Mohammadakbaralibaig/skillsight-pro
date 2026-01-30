@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skillsight-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: skillsight
+  template:
+    metadata:
+      labels:
+        app: skillsight
+    spec:
+      containers:
+      - name: skillsight
+        image: skillsight:v1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8501
+        env:
+        - name: OPENROUTER_API_KEY
+          value: "sk
+
