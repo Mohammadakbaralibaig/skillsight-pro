@@ -1,39 +1,46 @@
-# **⚡ SkillSight Pro – AI + LLM Powered Resume Intelligence Platform**  
-## **End-to-End DevOps Deployment with AWS, Docker, Kubernetes, Splunk & Automation**
+# ⚡ SkillSight Pro – AI + LLM Powered Resume Intelligence Platform  
 
-SkillSight Pro is an advanced **AI-powered, LLM-based Resume & Career Analysis System** that evaluates resumes, extracts skills, matches job roles, and generates personalized insights using Machine Learning, Deep Learning, and modern Generative AI models.
+**End-to-End DevOps Deployment with AWS, Docker, Kubernetes, Splunk & Automation**
 
-This repository includes the **full AI application** along with **DevOps deployment automation** using AWS EC2, Docker, Kubernetes, Terraform, Ansible, and monitoring integration with Splunk.
+SkillSight Pro is an advanced **AI-powered, LLM-based Resume & Career Analysis System** that evaluates resumes, extracts skills, matches job roles, and generates personalized insights using **Machine Learning, Deep Learning, NLP, and modern Generative AI models**.
 
- 🚀 Key Features
+This repository includes the full AI application along with **DevOps deployment automation** using **AWS EC2, Docker, Kubernetes, Terraform, Ansible**, and monitoring integration with **Splunk**.
 
- 🤖 AI / ML / LLM Capabilities
+---
+
+## 🚀 Key Features
+
+### 🤖 AI / ML / LLM Capabilities
 - Named Entity Recognition (NER) for skill extraction  
 - Embedding-based similarity scoring  
 - LLM-generated job matching and insights  
 - Resume scoring and ranking  
 - Deep Learning text understanding  
-- AI-generated career roadmap suggestions
+- AI-generated career roadmap suggestions  
 
- 🧠 LLM Integration
-Powered by:
+---
+
+## 🧠 LLM Integration Powered by
+
 - OpenAI GPT models  
 - Mistral / LLaMA models  
 - Transformer-based pipelines  
 - Contextual embeddings  
 
-LLM outputs include:
+**LLM outputs include:**
 - Resume summary  
 - Job role mapping  
 - Skill gap analysis  
 - Improvement recommendations  
 - Interview preparation insights  
 
-🛠 DevOps & Cloud Architecture
+---
 
-SkillSight Pro demonstrates a complete real-world DevOps workflow:
+## 🛠 DevOps & Cloud Architecture
 
-## ☁️ AWS Infrastructure
+SkillSight Pro demonstrates a complete **real-world DevOps workflow**.
+
+### ☁️ AWS Infrastructure
 - EC2 (Compute)  
 - Security Groups  
 - IAM  
@@ -41,115 +48,115 @@ SkillSight Pro demonstrates a complete real-world DevOps workflow:
 - SSH Secure Access  
 - Public deployment  
 
-## 🔧 Configuration Management – Ansible
+### 🔧 Configuration Management – Ansible
 Automates:
 - System update  
 - Python & dependency installation  
 - Cloning GitHub repo  
 - Application startup  
-- Docker installation (optional)
+- Docker installation  
 
-## 🐳 Containerization – Docker
-Includes:
+### 🐳 Containerization – Docker
 - Dockerfile  
 - Build & run instructions  
 - Portable container support  
 
-## ☸️ Orchestration – Kubernetes
-Includes:
+### ☸️ Orchestration – Kubernetes
 - `deployment.yaml` — scalable deployment  
 - `service.yaml` — LoadBalancer/ClusterIP  
 - Ready for production clusters  
 
-## 📊 Monitoring – Splunk Integration
-Supports:
+### 📊 Monitoring – Splunk Integration
 - Log forwarding  
 - HTTP Event Collector (HEC)  
 - Error + request monitoring  
 - Backend log insights  
 
+---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
+```
 skillsight-pro-ai-llm-devops/
 │
-├── app.py 
-├── dl_ner.py 
-├── dl_embeddings.py 
-├── Dockerfile 
-├── deployment.yaml 
-├── service.yaml 
-├── requirements.txt 
-└── .env 
+├── app.py
+├── dl_ner.py
+├── dl_embeddings.py
+├── Dockerfile
+├── deployment.yaml
+├── service.yaml
+├── requirements.txt
+└── .env
+```
 
+---
 
-# 🧠 AI/LLM Pipeline
+## 🧠 AI/LLM Pipeline
 
-## ✔ Skill Extraction (NER)
-Model:
-tner/bertweet-base-twitterner2021
+### ✔ Skill Extraction (NER)
+Model: `tner/bertweet-base-twitterner2021`
 
-yaml
-Copy code
-
-## ✔ Embedding Layer
+### ✔ Embedding Layer
 Used for:
 - Job-role similarity  
 - Skill matching  
 - Ranking and scoring  
 
-## ✔ LLM Intelligence
+### ✔ LLM Intelligence
 LLMs generate:
 - Feedback  
 - Recommendations  
 - Summaries  
 - Job match results  
 
+---
 
+## 🐳 Docker Deployment
 
-
-
-
-
-# 🐳 Docker Deployment
-
-### Build:
+**Build:**
+```bash
 docker build -t skillsight-pro .
+```
 
+**Run:**
+```bash
+docker run -p 8501:8501 --env-file .env skillsight-pro
+```
 
+---
 
-### Run:
-docker run -p 8501:8501 skillsight-pro
+## ☸️ Kubernetes Deployment
 
-# ☸️ Kubernetes Deployment
-
+```bash
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
+```
 
+---
 
+## 📊 Splunk Monitoring Setup
 
-# 📊 Splunk Monitoring Setup
-
-1. Enable **HTTP Event Collector (HEC)**  
+1. Enable HTTP Event Collector (HEC)  
 2. Add Splunk HEC token + URL into `.env`  
 3. Application sends logs using Python logging  
 
+---
 
+## 🏁 Conclusion
 
-# 🏁 Conclusion
-
-SkillSight Pro is a complete **AI + ML + LLM + DevOps** platform demonstrating:
+SkillSight Pro is a complete **AI + ML + LLM + DevOps platform** demonstrating:
 
 - Cloud Infrastructure  
 - Automation  
 - Containerization  
 - Orchestration  
-- AI engineering  
+- AI Engineering  
 - Production-grade architecture  
 
+---
 
-# 👤 Author
+## 👤 Author  
 
-Venkata Varshith Narayanam 
+**Mohammad Akbar Ali Baig**  
 B.Tech CSE – Data Science & Machine Learning  
-DevOps • AI Engineering • Cloud • MLOps -- LLM -- Deep learning
+AI Engineering • DevOps • Cloud • MLOps • LLM • Deep Learning  
