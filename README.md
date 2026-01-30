@@ -1,8 +1,9 @@
-# ⚡ SkillSight Pro – AI + LLM Powered Resume Intelligence Platform  
+# # 🚀 ResumeIQ AI – LLM Powered Resume Intelligence Platform
+ 
 
 **End-to-End DevOps Deployment with AWS, Docker, Kubernetes, Splunk & Automation**
 
-SkillSight Pro is an advanced **AI-powered, LLM-based Resume & Career Analysis System** that evaluates resumes, extracts skills, matches job roles, and generates personalized insights using **Machine Learning, Deep Learning, NLP, and modern Generative AI models**.
+ResumeIQ AI is an advanced **AI-powered, LLM-based Resume & Career Analysis System** that evaluates resumes, extracts skills, matches job roles, and generates personalized insights using **Machine Learning, Deep Learning, NLP, and modern Generative AI models**.
 
 This repository includes the full AI application along with **DevOps deployment automation** using **AWS EC2, Docker, Kubernetes, Terraform, Ansible**, and monitoring integration with **Splunk**.
 
@@ -38,7 +39,7 @@ This repository includes the full AI application along with **DevOps deployment 
 
 ## 🛠 DevOps & Cloud Architecture
 
-SkillSight Pro demonstrates a complete **real-world DevOps workflow**.
+ResumeIQ AI demonstrates a complete **real-world DevOps workflow**.
 
 ### ☁️ AWS Infrastructure
 - EC2 (Compute)  
